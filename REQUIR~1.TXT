@@ -1,0 +1,31 @@
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# HTTP / API clients
+requests>=2.31.0
+httpx>=0.24.0
+
+# Industrial protocols (for production use)
+opcua-asyncio>=0.9.0   # OPC-UA connector
+paho-mqtt>=1.6.1        # MQTT/IoT connector
+
+# AI / Agent framework (for production use)
+langchain>=0.2.0
+langgraph>=0.1.0
+openai>=1.0.0           # Azure OpenAI
+
+# API layer
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# Database
+psycopg2-binary>=2.9.0  # PostgreSQL
